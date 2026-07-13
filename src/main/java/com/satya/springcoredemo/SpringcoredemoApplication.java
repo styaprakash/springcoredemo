@@ -21,8 +21,8 @@ public class SpringcoredemoApplication {
 		OrderService orderService = context.getBean(OrderService.class);
 		orderService.placeOrder();
 
-		PaymentService paymentService = context.getBean(PaymentService.class);
-		paymentService.pay();
+//		PaymentService paymentService = context.getBean(PaymentService.class);
+//		paymentService.pay();
 	}
 
 }
