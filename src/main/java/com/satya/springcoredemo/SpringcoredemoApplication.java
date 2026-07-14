@@ -23,6 +23,9 @@ public class SpringcoredemoApplication {
 
 //		PaymentService paymentService = context.getBean(PaymentService.class);
 //		paymentService.pay();
+
+//		User user = context.getBean(User.class);
+//		System.out.println(user.getName());
 	}
 
 }

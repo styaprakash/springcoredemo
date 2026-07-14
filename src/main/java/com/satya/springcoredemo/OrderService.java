@@ -1,12 +1,13 @@
 package com.satya.springcoredemo;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import com.satya.springcoredemo.payment.PaymentService;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class OrderService {
 //    @Autowired
-     private final PaymentService paymentService;
+     private  PaymentService paymentService;
 
     // // Constructor injection
 
